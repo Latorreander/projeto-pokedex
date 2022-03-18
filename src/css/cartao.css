@@ -56,7 +56,6 @@
   margin-top: 5px;
 }
 
-
 .cartao-pokemon .cartao-informacoes .status,
 .cartao-pokemon .cartao-informacoes .habilidades,
 .cartao-pokemon .cartao-informacoes .info {
@@ -67,7 +66,6 @@
 
 .info span {
   font-size: 10px;
-  
 }
 
 .cartao-pokemon .cartao-informacoes ul li {
