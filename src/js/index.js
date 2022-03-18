@@ -30,15 +30,16 @@ listaSelecaoPokemons.forEach((pokemon) => {
     // remover a classe aberto só do cartão que está sendo mostrado para esconde-lo
     const cartaoPokemonAberto = document.querySelector(".aberto");
     cartaoPokemonAberto.classList.remove("aberto");
-
+  
     // ao clicar no pokémon da listagem pegamos o id desse pokémon para saber qual mostrar
     const idPokemonSelecionado = pokemon.attributes.id.value;
-
+  
     const cartaoPokemonParaAbrir = document.getElementById(
       "cartao-" + idPokemonSelecionado
     );
     cartaoPokemonParaAbrir.classList.add("aberto");
-
+    console.log(cartaoPokemonParaAbrir);
+   
     //remover a classe ativa que marca o pokémon selecionado
     const pokemonAtivoNaListagem = document.querySelector(".ativo");
     pokemonAtivoNaListagem.classList.remove("ativo");

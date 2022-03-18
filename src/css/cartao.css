@@ -2,6 +2,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
   display: none;
+  max-width: 440px;
 }
 
 .cartao-pokemon .cartao-topo {
@@ -40,23 +41,33 @@
 
 .cartao-pokemon .cartao-informacoes {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   padding: 80px 30px 50px;
   background-color: #ffff;
   margin-top: -70px;
   border-radius: 0 0 10px 10px;
+  max-height: 550px;
 }
 
 .cartao-pokemon .cartao-informacoes h3 {
   font-size: 20px;
   margin-bottom: 15px;
   border-bottom: 1px solid #6b727a;
+  margin-top: 5px;
 }
 
+
 .cartao-pokemon .cartao-informacoes .status,
-.cartao-pokemon .cartao-informacoes .habilidades {
+.cartao-pokemon .cartao-informacoes .habilidades,
+.cartao-pokemon .cartao-informacoes .info {
   padding: 0 10px;
   width: 180px;
+  margin-top: 5px;
+}
+
+.info span {
+  font-size: 10px;
+  
 }
 
 .cartao-pokemon .cartao-informacoes ul li {
@@ -101,4 +112,12 @@
 
 .tipo-psiquico {
   background-color: #f366b9;
+}
+
+.tipo-inseto {
+  background-color: #729f3f;
+}
+
+.tipo-pedra {
+  background-color: #a38c21;
 }

@@ -1,5 +1,7 @@
 .listagem {
+  display: flex;
   max-width: 200px;
+  align-items: center;
 }
 
 .listagem .pokemon {
@@ -20,6 +22,7 @@
 .listagem .pokemon span {
   margin: auto;
 }
+
 
 .listagem .pokemon.pikachu:hover {
   background-color: #fcc719;
@@ -56,6 +59,16 @@
   transform: scale(1.08);
 }
 
+.listagem .pokemon.butterfly:hover {
+  background-color: #729f3f;
+  transform:scale(1.08);
+}
+
+.listagem .pokemon.onix:hover {
+  background-color: #a38c21;
+  transform: scale(1.08);
+}
+
 .listagem .pokemon img {
   width: 25%;
   border-radius: 50%;
@@ -87,4 +100,12 @@
 
 .listagem .pokemon.pidgeotto.ativo {
   background-color: #a4acaf;
+}
+
+.listagem .pokemon.butterfly.ativo {
+  background-color: #729f3f;
+}
+
+.listagem .pokemon.onix.ativo {
+  background-color: #a38c21;
 }
