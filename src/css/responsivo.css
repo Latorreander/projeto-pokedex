@@ -19,6 +19,7 @@
   .cartao-pokemon .cartao-informacoes {
     padding: 60px 30px 30px;
     margin-top: -50px;
+    max-height: 780px;
   }
 
   .cartao-pokemon .cartao-informacoes h3 {
