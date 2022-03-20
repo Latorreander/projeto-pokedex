@@ -2,19 +2,19 @@
   display: flex;
   max-width: 200px;
   align-items: center;
+  margin-top: 10px;
 }
 
 .listagem .pokemon {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   margin-bottom: 10px;
   background-color: #6b727a;
   color: #ffff;
   padding: 0 5px;
   cursor: pointer;
   border-radius: 30px 0 0 30px;
-  min-height: 70px;
+   min-height: 70px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: 0.3s ease-in-out;
 }
@@ -59,7 +59,7 @@
   transform: scale(1.08);
 }
 
-.listagem .pokemon.butterfly:hover {
+.listagem .pokemon.butterfree:hover {
   background-color: #729f3f;
   transform:scale(1.08);
 }
@@ -67,6 +67,10 @@
 .listagem .pokemon.onix:hover {
   background-color: #a38c21;
   transform: scale(1.08);
+}
+
+.listagem .pokemon.ponyta:hover {
+  background-color: #ed8a8b;
 }
 
 .listagem .pokemon img {

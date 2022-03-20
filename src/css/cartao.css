@@ -3,6 +3,7 @@
   border-radius: 10px;
   display: none;
   max-width: 440px;
+  max-height: 880px;
 }
 
 .cartao-pokemon .cartao-topo {
@@ -46,7 +47,6 @@
   background-color: #ffff;
   margin-top: -70px;
   border-radius: 0 0 10px 10px;
-  max-height: 862px;
 }
 
 .cartao-pokemon .cartao-informacoes h3 {
@@ -63,12 +63,12 @@
   margin-top: 5px;
 }
 
-.info {
+.cartao-pokemon .cartao-informacoes .info {
   padding: 0 10px;
   margin-top: 5px;
 }
 
-.info span {
+.cartao-pokemon .cartao-informacoes .info span {
   font-size: 15px;
   width: 360px;
 }
