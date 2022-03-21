@@ -3,7 +3,11 @@
   border-radius: 10px;
   display: none;
   max-width: 440px;
-  max-height: 880px;
+  height: 853px;
+}
+
+.pokedex .cartoes-pokemon {
+  max-height: 853px;
 }
 
 .cartao-pokemon .cartao-topo {

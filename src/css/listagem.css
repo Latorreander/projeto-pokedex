@@ -1,7 +1,7 @@
 .listagem {
   display: flex;
   max-width: 200px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .listagem .pokemon {
@@ -70,6 +70,17 @@
 
 .listagem .pokemon.ponyta:hover {
   background-color: #ed8a8b;
+  transform: scale(1.08);
+}
+
+.listagem .pokemon.mewtwo:hover {
+  background-color: #f366b9;
+  transform: scale(1.08);
+}
+
+.listagem .pokemon.meowth:hover {
+  background-color: #a4acaf;
+  transform: scale(1.08);
 }
 
 .listagem .pokemon img {
@@ -111,4 +122,13 @@
 
 .listagem .pokemon.onix.ativo {
   background-color: #a38c21;
+}
+
+
+.listagem .pokemon.mewtwo.ativo {
+  background-color: #f366b9;
+}
+
+.listagem .pokemon.meowth.ativo {
+  background-color: #a4acaf;
 }
