@@ -5,10 +5,6 @@
   max-width: 440px;
 }
 
-.pokedex .cartoes-pokemon {
-  max-height: 853px;
-}
-
 .cartao-pokemon .cartao-topo {
   padding: 30px 40px 0;
   border-radius: 10px 10px 0 0;
